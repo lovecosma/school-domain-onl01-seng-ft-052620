@@ -23,10 +23,8 @@ def grade(number)
 end
 
 def sort
-  @roster.each do |key, value_array|
-    @roster[key].sort{|a,b| a<=>b}
-binding.pry
-  end
+new_hash = {}
+@roster.each do |key, value_array|
 end
 
 end
