@@ -24,6 +24,8 @@ end
 
 def sort
   @roster.each do |key, value_array|
+    
+  end
 end
 
 end
