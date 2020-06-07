@@ -29,7 +29,7 @@ value_array.sort do |a,b|
   a<=>b
 end
 new_hash[key] = []
-new_hash[key] = value_array 
+new_hash[key] = value_array
 end
 new_hash
 end
