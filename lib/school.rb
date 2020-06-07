@@ -23,7 +23,7 @@ def grade(number)
 end
 
 def sort
-binding.pry
+
 end
 
 end
