@@ -26,5 +26,6 @@ def sort
 new_hash = {}
 @roster.each do |key, value_array|
 end
+end
 
 end
