@@ -24,7 +24,7 @@ end
 
 def sort
   @roster.each do |key, value_array|
-    @roster[key].sort do {|a,b| a<=>b}
+    @roster[key].sortx{|a,b| a<=>b}
   end
 end
 
