@@ -26,6 +26,7 @@ def sort
 new_hash = {}
 @roster.each do |key, value_array|
 new_hash[key] = []
+binding.pry
 end
 end
 
