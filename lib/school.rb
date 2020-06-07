@@ -24,8 +24,9 @@ end
 
 def sort
 new_hash = {}
+newer = []
 @roster.each do |key, value_array|
-value_array.sort do |a,b|
+newer = value_array.sort do |a,b|
   a<=>b
 end
 new_hash[key] = []
