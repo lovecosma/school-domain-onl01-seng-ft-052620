@@ -31,6 +31,7 @@ end
 new_hash[key] = []
 new_hash[key] = value_array 
 end
+new_hash
 end
 
 end
