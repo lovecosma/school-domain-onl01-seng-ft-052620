@@ -25,8 +25,11 @@ end
 def sort
 new_hash = {}
 @roster.each do |key, value_array|
+value_array.sort do |a,b|
+  a<=>b
+end
 new_hash[key] = []
-binding.pry
+new_hash[key] = value_array 
 end
 end
 
